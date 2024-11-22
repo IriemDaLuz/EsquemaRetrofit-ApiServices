@@ -12,6 +12,22 @@ SQLite se utiliza para:
 - Ofrecer una solución de almacenamiento local para aplicaciones móviles.
 
 ---
+## Dependencias
+```
+dependencies {
+    def sqlite_version = "2.4.0"
+
+    // Java language implementation
+    implementation "androidx.sqlite:sqlite:$sqlite_version"
+
+    // Kotlin
+    implementation "androidx.sqlite:sqlite-ktx:$sqlite_version"
+
+    // Implementation of the AndroidX SQLite interfaces via the Android framework APIs.
+    implementation "androidx.sqlite:sqlite-framework:$sqlite_version"
+}
+```
+---
 
 ## Componentes Clave
 
